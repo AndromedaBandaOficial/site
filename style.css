@@ -24,10 +24,14 @@ header h1{
 }
 
 .logo{
+    transition: box-shadow 0.4s ease;
     border-radius: 50%; 
     float: top;
 }
-
+.logo:hover{
+    box-shadow: 0 0.5rem 1rem rgb(0, 0, 1);
+    
+}
 .conteiner1 {
     width: 600px;
     margin: 0 auto;
@@ -94,25 +98,29 @@ div {
 }
 
 footer {
-    transition: box-shadow 0.4s ease;
     background-color:darkcyan;
     color: white;
     padding: 5rem 3rem;
 }
 
 .S1 {
+    transition: box-shadow 0.4s ease;
     float: left;
-    box-shadow: 0 0.5rem 1rem rgb(0, 0, 0.3);
 }
 
 .S2 {
-    float: right;
-    box-shadow: 0 0.5rem 1rem rgb(0, 0, 0.3);
+    transition: box-shadow 0.4s ease;
+    float: left;
 }
 
-.a1, .a2{
+.a2{
     size: 15px;
 }
+
+.a1{
+    size: 15px;
+}
+
 
 footer p {
     text-align: center;
@@ -125,6 +133,10 @@ footer a{
     color: #fff;
     font-size: 15px;
    
+}
+
+.left1{
+    float: right;
 }
 
 #center{
