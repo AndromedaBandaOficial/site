@@ -15,12 +15,13 @@ body {
 header{
     background-color: darkcyan;
     color: white;
-    padding: 3rem 2rem;
+    padding: 2rem 1rem;
 }
 
 header h1{
     font-size: 4rem;
     text-align: center;
+    text-shadow: 0 0.5rem 1rem rgb(0, 0, 0.3);
 }
 
 .logo{
@@ -29,24 +30,25 @@ header h1{
     float: top;
 }
 .logo:hover{
-    box-shadow: 0 0.5rem 1rem rgb(0, 0, 1);
+    box-shadow: 0 0.2rem 0.4rem rgb(0, 0, 1);
     
 }
+
 .conteiner1 {
-    width: 600px;
+    width: 575px;
     margin: 0 auto;
 }
 
-section article {
+.tarjeta{
     transition: box-shadow 0.4s ease;
     background-color: rgb(215, 142, 32);
     margin: 1rem 0;
     border-radius: 1rem;
-    padding: 0.25rem 0;
+    padding: 0.50rem 0;
     color: rgb(0, 0, 0);
 }
 
-section article:hover{
+.tarjeta:hover{
     box-shadow: 0 0.5rem 1rem rgb(0, 0, 0.3);
 }
 
@@ -69,32 +71,69 @@ a {
     margin-right: auto;
 }
 
-div {
+div{
     text-align: center;
+    overflow: hidden;
 }
 
 .banda {
+    transition: all 0.4s ease;
     border-radius: 8%;
 }
 
 .foto1 {
     border-radius: 8%;
+    box-shadow: 0 0.5rem 1rem rgb(0, 0, 0.3);
+    margin: 1rem 0;
 }
 
 .foto2 {
+    transition: all 0.4s ease;
     border-radius: 8%;
+
+    overflow: hidden;
 }
 
 .foto3 {
+    transition: all 0.4s ease;
     border-radius: 8%;
 }
 
 .foto4 {
+    transition: all 0.4s ease;
     border-radius: 8%;
 }
 
 .foto5 {
+    transition: all 0.4s ease;
     border-radius: 8%;
+}
+
+.banda:hover {
+    border-radius: 8%;
+    box-shadow: 0 0.2rem 0.5rem rgb(0, 0, 0.1);
+}
+
+
+.foto2:hover {
+    border-radius: 8%;
+    box-shadow: 0 0.5rem 1rem rgb(0, 0, 0.3);
+    /**transform: scale(1.2);**/
+}
+
+.foto3:hover {
+    border-radius: 8%;
+    box-shadow: 0 0.5rem 1rem rgb(0, 0, 0.3);
+}
+
+.foto4:hover {
+    border-radius: 8%;
+    box-shadow: 0 0.5rem 1rem rgb(0, 0, 0.3);
+}
+
+.foto5:hover {
+    border-radius: 8%;
+    box-shadow: 0 0.5rem 1rem rgb(0, 0, 0.3);
 }
 
 footer {
@@ -147,4 +186,8 @@ footer a{
 
 footer a:hover{
     color:blue;
+}
+
+html{
+    scroll-behavior: smooth;
 }
