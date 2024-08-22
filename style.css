@@ -1,0 +1,125 @@
+html {
+
+    font-family: "Poppins", sans-serif;
+
+}
+body {
+    margin: 0;
+    background-color: #efefef;
+    background-image: url(IMGS/FaMbacky.jpg);
+    background-position: center;  /* posiciona la imagen en el centro */ 
+    background-repeat: repeat;  /* impide que se repita la imagen */ 
+    background-size: contain;  /* ajusta la imagen al tamaño del elemento */ 
+}
+
+header{
+    background-color: darkcyan;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+header h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.conteiner1 {
+    width: 600px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: box-shadow 0.4s ease;
+    background-color: rgb(215, 142, 32);
+    margin: 1rem 0;
+    border-radius: 1rem;
+    padding: 0.25rem 0;
+    color: rgb(0, 0, 0);
+}
+
+section article:hover{
+    box-shadow: 0 0.5rem 1rem rgb(0, 0, 0.3);
+}
+
+section article h2, section article h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+section article p {
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    text-align: center;
+}
+
+.banda {
+    border-radius: 8%;
+}
+
+.foto1 {
+    border-radius: 8%;
+}
+
+.foto2 {
+    border-radius: 8%;
+}
+
+.foto3 {
+    border-radius: 8%;
+}
+
+.foto4 {
+    border-radius: 8%;
+}
+
+footer {
+    background-color:darkcyan;
+    color: white;
+    padding: 5rem 3rem;
+}
+
+.S1 {
+    float: left;
+}
+
+.S2 {
+    float: right;
+}
+
+.a1, .a2{
+    size: 15px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+}
+
+footer a{
+    transition: color 0.3s;
+    color: #fff;
+    font-size: 15px;
+   
+}
+
+#center{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer a:hover{
+    color:blue;
+}
